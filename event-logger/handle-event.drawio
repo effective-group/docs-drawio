@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T07:03:32.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YNN-Ad8cKZDTh1GIRapP" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T07:14:02.779Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DQNnKPut1o2wWfr_ww2u" version="21.6.7" type="github">
   <diagram name="Страница — 1" id="O-HKoHVE6L-0gY3kg_0p">
     <mxGraphModel dx="1366" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="4M5gjLJg_07RZgJpLRM7-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4M5gjLJg_07RZgJpLRM7-26" target="4M5gjLJg_07RZgJpLRM7-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4M5gjLJg_07RZgJpLRM7-26" value="Получение сообщения из Message Broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4M5gjLJg_07RZgJpLRM7-26" value="Получение сообщения из Message Broker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4M5gjLJg_07RZgJpLRM7-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4M5gjLJg_07RZgJpLRM7-27" target="4M5gjLJg_07RZgJpLRM7-29">
@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Запрос к data-api на получение значения objectTitle" tooltip="GET data-api/get-object-meta/%objectType%" id="4M5gjLJg_07RZgJpLRM7-34">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;comic=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
             <mxGeometry x="680" y="440" width="150" height="60" as="geometry" />
           </mxCell>
         </UserObject>
