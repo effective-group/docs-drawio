@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T07:04:42.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TKdNt-ymSj3N7fr8pcI5" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T07:05:49.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yzfd_ZdQUkijCiNHzH3e" version="21.6.8" type="github">
   <diagram id="KDu2pqD8I73wpTm_DLH5" name="Страница 1">
     <mxGraphModel dx="1647" dy="-1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
         <mxCell id="p7jQ2xvVFgrjoR0aqUAW-8" value="Легенда" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="26" y="2360" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p7jQ2xvVFgrjoR0aqUAW-9" value="Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=1;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="p7jQ2xvVFgrjoR0aqUAW-9" value="gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=1;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="348" y="2360" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="p7jQ2xvVFgrjoR0aqUAW-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;strokeWidth=1;" parent="p7jQ2xvVFgrjoR0aqUAW-9" vertex="1">
