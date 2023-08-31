@@ -1,38 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T12:23:51.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RYih_2Noc7nuVXOAmuBM" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T12:29:21.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="J3_MHTo5UtQeGRhFA4kU" version="21.6.9" type="github">
   <diagram name="Страница — 1" id="NpfIep2WKDjv2zVOJQAw">
-    <mxGraphModel dx="784" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vS4V1v8YhmdqFipPxjqS-1" value="Релизная ветка 13.0.x/release" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vS4V1v8YhmdqFipPxjqS-2" value="Эпик ветка 13.0.x/EFА-0001" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="170" y="80" width="90" height="30" as="geometry" />
+        <mxCell id="vS4V1v8YhmdqFipPxjqS-2" value="Эпик ветка 13.0.x/EFА-0001&lt;br&gt;&lt;font color=&quot;#878787&quot;&gt;(MR&amp;nbsp;13.0.x/EFA-0001)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="80" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vS4V1v8YhmdqFipPxjqS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="vS4V1v8YhmdqFipPxjqS-4" target="vS4V1v8YhmdqFipPxjqS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vS4V1v8YhmdqFipPxjqS-4" value="Ветка истории 13.0.x/EFА-0003" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="290" y="120" width="99" height="40" as="geometry" />
+        <mxCell id="vS4V1v8YhmdqFipPxjqS-4" value="Ветка истории 13.0.x/EFА-0003&lt;br&gt;&lt;font color=&quot;#878787&quot;&gt;(MR&amp;nbsp;13.0.x/EFA-0003 EFA-0001)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="290" y="120" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vS4V1v8YhmdqFipPxjqS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="vS4V1v8YhmdqFipPxjqS-6" target="vS4V1v8YhmdqFipPxjqS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vS4V1v8YhmdqFipPxjqS-6" value="Ветка истории 13.0.x/EFA-0002" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="290" y="30" width="100" height="40" as="geometry" />
+        <mxCell id="vS4V1v8YhmdqFipPxjqS-6" value="Ветка истории 13.0.x/EFA-0002&lt;br&gt;&lt;font color=&quot;#878787&quot;&gt;(MR&amp;nbsp;13.0.x/EFA-0002 EFA-0001)&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="290" y="30" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vS4V1v8YhmdqFipPxjqS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="vS4V1v8YhmdqFipPxjqS-8" target="vS4V1v8YhmdqFipPxjqS-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vS4V1v8YhmdqFipPxjqS-8" value="Ветка сабтаски 13.0.x/EFА-0004" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="490" y="80" width="125" height="40" as="geometry" />
+        <mxCell id="vS4V1v8YhmdqFipPxjqS-8" value="Ветка сабтаски 13.0.x/EFА-0004&lt;br&gt;&lt;font color=&quot;#878787&quot;&gt;(MR&amp;nbsp;13.0.x/EFA-0004 EFA-0003 EFA-0001)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vS4V1v8YhmdqFipPxjqS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="vS4V1v8YhmdqFipPxjqS-10" target="vS4V1v8YhmdqFipPxjqS-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vS4V1v8YhmdqFipPxjqS-10" value="Ветка сабтаски 13.0.x/EFА-0005" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;glass=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="490" y="160" width="125" height="40" as="geometry" />
+        <mxCell id="vS4V1v8YhmdqFipPxjqS-10" value="Ветка сабтаски 13.0.x/EFА-0005&lt;br&gt;&lt;font color=&quot;#878787&quot;&gt;13.0.x/EFA-0005 EFA-0003 EFA-0001)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=2;glass=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="560" y="160" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vS4V1v8YhmdqFipPxjqS-11" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="vS4V1v8YhmdqFipPxjqS-2" target="vS4V1v8YhmdqFipPxjqS-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
