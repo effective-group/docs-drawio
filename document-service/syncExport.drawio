@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T14:37:55.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RJqIKRsRU0hRLxQic666" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T14:46:45.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Hf2TKUWDsgq9DlP4R2W-" version="21.7.5" type="github">
   <diagram name="Страница — 1" id="g-NbgW3OWLjMFJM1k_oT">
     <mxGraphModel dx="1136" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,19 +11,19 @@
           <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-3" value="api-proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="204" y="30" width="100" height="300" as="geometry" />
+          <mxGeometry x="160" y="30" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="yq-rqncpho9hYTR--qHu-3">
           <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-5" value="workflow-api" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="384" y="30" width="100" height="300" as="geometry" />
+          <mxGeometry x="310" y="30" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="yq-rqncpho9hYTR--qHu-5">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-7" value="document-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="544" y="30" width="130" height="300" as="geometry" />
+          <mxGeometry x="460" y="30" width="130" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="yq-rqncpho9hYTR--qHu-7">
           <mxGeometry x="60" y="100" width="10" height="100" as="geometry" />
@@ -39,7 +39,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-10" value="file" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="704" y="30" width="100" height="300" as="geometry" />
+          <mxGeometry x="630" y="30" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="yq-rqncpho9hYTR--qHu-10">
           <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
@@ -52,29 +52,29 @@
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-13" value="Вызов действия worflow" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.098;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.074;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yq-rqncpho9hYTR--qHu-4" target="yq-rqncpho9hYTR--qHu-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="264" y="129.9999999999999" as="sourcePoint" />
-            <mxPoint x="424" y="111" as="targetPoint" />
+            <mxPoint x="220" y="129.9999999999999" as="sourcePoint" />
+            <mxPoint x="380" y="111" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-14" value="Запрос на генерацию&#xa; файла отчета" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.041;exitY=0.264;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yq-rqncpho9hYTR--qHu-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="444" y="150" as="sourcePoint" />
-            <mxPoint x="604" y="150" as="targetPoint" />
+            <mxPoint x="370" y="150" as="sourcePoint" />
+            <mxPoint x="530" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-15" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Генерация отчета&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="654" y="150" width="40" height="20" as="geometry" />
+          <mxGeometry x="570" y="150" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-16" value="Сохранение файла" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.041;exitY=0.264;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.112;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="yq-rqncpho9hYTR--qHu-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="614" y="220" as="sourcePoint" />
-            <mxPoint x="744" y="220" as="targetPoint" />
+            <mxPoint x="530" y="220" as="sourcePoint" />
+            <mxPoint x="660" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yq-rqncpho9hYTR--qHu-17" value="Возврат содержимого файла или информации&#xa; о файле  (_id, name, size, create-date)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.158;exitY=0.836;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;entryX=1;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yq-rqncpho9hYTR--qHu-11" target="yq-rqncpho9hYTR--qHu-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="444" y="277" as="targetPoint" />
-            <mxPoint x="744" y="259.9999999999999" as="sourcePoint" />
+            <mxPoint x="370" y="277" as="targetPoint" />
+            <mxPoint x="670" y="259.9999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
