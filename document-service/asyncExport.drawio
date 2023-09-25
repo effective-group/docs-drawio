@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T11:46:58.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="29lNgfgubHfo_SaJ0xxh" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T12:33:57.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_EstsaObZ4IiPXQFjqiG" version="21.8.0" type="github">
   <diagram name="Страница — 1" id="BGPAjNNVndj-kQ1KO1jv">
     <mxGraphModel dx="1373" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,10 +22,11 @@
         <mxCell id="2YPwDXGV4YwHhZf0TQoE-28" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="2YPwDXGV4YwHhZf0TQoE-5">
           <mxGeometry x="45" y="70" width="10" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="2YPwDXGV4YwHhZf0TQoE-31" value="Подписка на событие" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.993;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2YPwDXGV4YwHhZf0TQoE-5">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="2YPwDXGV4YwHhZf0TQoE-31" value="Подписка на&#xa; событие" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.993;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2YPwDXGV4YwHhZf0TQoE-5">
+          <mxGeometry x="-0.4615" relative="1" as="geometry">
             <mxPoint x="55.00000000000006" y="90" as="sourcePoint" />
             <mxPoint x="185" y="90" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2YPwDXGV4YwHhZf0TQoE-8" value="api-proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -143,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2YPwDXGV4YwHhZf0TQoE-57" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;loop&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=45;height=15;" vertex="1" parent="1">
-          <mxGeometry x="295" y="90" width="305" height="100" as="geometry" />
+          <mxGeometry x="310" y="90" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2YPwDXGV4YwHhZf0TQoE-55" value="Передача события" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.097;exitY=0.915;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.998;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="2YPwDXGV4YwHhZf0TQoE-30" target="2YPwDXGV4YwHhZf0TQoE-28">
           <mxGeometry relative="1" as="geometry">
