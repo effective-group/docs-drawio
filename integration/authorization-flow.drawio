@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T08:51:59.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CKY93CcWHrjJY_nEpHI9" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T12:22:56.078Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lOMtb4B5ElN67pIOzqLf" version="21.8.2" type="github">
   <diagram id="JLikqGqCweqWFy_HerNJ" name="Страница 1">
-    <mxGraphModel dx="1647" dy="-1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="-1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rocJCxlV0Q5dgGiiJqB6-4" value="connector/gatweay" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=1;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="rocJCxlV0Q5dgGiiJqB6-4" value="connector/gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=1;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="356" y="2360" width="101" height="400" as="geometry" />
         </mxCell>
         <mxCell id="rocJCxlV0Q5dgGiiJqB6-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;strokeWidth=1;" parent="rocJCxlV0Q5dgGiiJqB6-4" vertex="1">
