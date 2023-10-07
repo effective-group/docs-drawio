@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" modified="2023-10-07T19:20:39.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="RwkAI7k6v0Sur5Qnvh2x" version="22.0.4" type="github">
+  <diagram name="Страница — 1" id="H_-hjRLZ34MLdKkdI6Jm">
+    <mxGraphModel dx="954" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=0;orthogonal=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="w7-Q-Zl4eugoxKsbGbH8-2" target="w7-Q-Zl4eugoxKsbGbH8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-2" value="Запуск обновления пользователем" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w7-Q-Zl4eugoxKsbGbH8-4" target="w7-Q-Zl4eugoxKsbGbH8-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-4" value="Установка запрошенных версий @et/factory и зависимых пакетов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;comic=0;enumerate=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-5" value="Выполнение et-migrator auto&lt;br style=&quot;border-color: var(--border-color); font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;(npm postinstall script)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="136.25" y="540" width="1773.75" height="260" as="geometry">
+            <mxRectangle x="136.25" y="280" width="197.5" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-7" target="w7-Q-Zl4eugoxKsbGbH8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-7" value="Определение списка промежуточных версий по списку имеющихся миграций" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="15" y="80" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-8" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-11" target="w7-Q-Zl4eugoxKsbGbH8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-11" target="w7-Q-Zl4eugoxKsbGbH8-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="231" y="230" />
+              <mxPoint x="1400" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-10" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w7-Q-Zl4eugoxKsbGbH8-9">
+          <mxGeometry x="-0.2413" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-11" value="Список пуст?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="180" y="75" width="102.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-13" target="w7-Q-Zl4eugoxKsbGbH8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Создание tmp директории" tooltip="Создание директории в&#xa;OS_TMP_DIR/et_factory_%version%" id="w7-Q-Zl4eugoxKsbGbH8-13">
+          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+            <mxGeometry x="329.995" y="95" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-14" value="Установка в tmp директорию пакета @et/factory@%version%" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="500" y="95" width="148.88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-16" target="w7-Q-Zl4eugoxKsbGbH8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Выполнение скрипта et-migrator из tmp директории с указанием конечной версии&amp;nbsp; %version%" tooltip="TMP_VERSION_PATH/node_modules/.bin/et-migrator auto . -t %version%" id="w7-Q-Zl4eugoxKsbGbH8-16">
+          <mxCell style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+            <mxGeometry x="690" y="85" width="142.63" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-14" target="w7-Q-Zl4eugoxKsbGbH8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-18" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-21" target="w7-Q-Zl4eugoxKsbGbH8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="823.75" y="190" as="sourcePoint" />
+            <mxPoint x="387.9949999999999" y="155" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1136" y="210" />
+              <mxPoint x="388" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-20" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w7-Q-Zl4eugoxKsbGbH8-19">
+          <mxGeometry x="-0.027" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-21" value="Последняя версия из списка?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="1083.75" y="70" width="104.92" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-22" value="Выполнение миграций исходным процессом на конечную версию&lt;br&gt;Eftech Factory" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="1323.75" y="85" width="152.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-23" value="Коммит внесенных изменений" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="1517.5" y="85" width="152.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-22" target="w7-Q-Zl4eugoxKsbGbH8-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-25" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-28" target="w7-Q-Zl4eugoxKsbGbH8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="w7-Q-Zl4eugoxKsbGbH8-5" source="w7-Q-Zl4eugoxKsbGbH8-28" target="w7-Q-Zl4eugoxKsbGbH8-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1023.9449999999997" y="180" as="sourcePoint" />
+            <mxPoint x="1593.81" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="984" y="200" />
+              <mxPoint x="1594" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-27" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w7-Q-Zl4eugoxKsbGbH8-26">
+          <mxGeometry x="-0.9265" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-28" value="Завершено с ошибкой?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry x="923.75" y="72.5" width="116.06" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w7-Q-Zl4eugoxKsbGbH8-33" target="w7-Q-Zl4eugoxKsbGbH8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-30" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w7-Q-Zl4eugoxKsbGbH8-29">
+          <mxGeometry x="-0.8172" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w7-Q-Zl4eugoxKsbGbH8-33" target="w7-Q-Zl4eugoxKsbGbH8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-32" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w7-Q-Zl4eugoxKsbGbH8-31">
+          <mxGeometry x="-0.3405" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-33" value="Есть локальные изменения?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;comic=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="280" width="145" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="w7-Q-Zl4eugoxKsbGbH8-34" value="Прерывание процесса обновления" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;comic=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="307.5" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
