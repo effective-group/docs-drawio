@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T10:04:22.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="QD4Tf3vWdT-sZCuDlHQq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T10:56:33.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1zdLNhcZ9zj3fMjgyKNH" version="22.1.3" type="github">
   <diagram name="Страница — 1" id="fHwD4AT0-X1UmiEej-gj">
-    <mxGraphModel>
+    <mxGraphModel dx="1497" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-27" value="с" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CnXcmlKL0RTw0rvfGO5R-27" source="CnXcmlKL0RTw0rvfGO5R-29" target="CnXcmlKL0RTw0rvfGO5R-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-29" value="Подготовка релиза Eftech.Factory (релиз не выпущен)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="CnXcmlKL0RTw0rvfGO5R-27">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-30" value="Выпуск релиза Eftech.Factory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="CnXcmlKL0RTw0rvfGO5R-27">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-31" value="Конфигураторы" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="300" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-32" value="При необходимости проверки функциональностей приложения на основе планируемого релиза Eftech.Factory&lt;br&gt;можно обновить фиче-ветку на планируемый релиз Eftech.Factory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#FFFFFF;" vertex="1" parent="CnXcmlKL0RTw0rvfGO5R-31">
+          <mxGeometry x="20" y="40" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CnXcmlKL0RTw0rvfGO5R-31" source="CnXcmlKL0RTw0rvfGO5R-34" target="CnXcmlKL0RTw0rvfGO5R-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-34" value="Анализ release-notes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#FFFFFF;" vertex="1" parent="CnXcmlKL0RTw0rvfGO5R-31">
+          <mxGeometry x="40" y="180" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-35" value="Обновление приложения в соответствие с новой версией Eftech.Factory&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%9F%D1%80%D0%B8%20%D0%BD%D0%B5%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BB%D0%B8%D0%B7%D0%B0%20Eftech.Factory%26lt%3Bbr%26gt%3B%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%B8%D1%87%D0%B5-%D0%B2%D0%B5%D1%82%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BB%D0%B8%D0%B7%20Eftech.Factory%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeColor%3D%2382b366%3BfillColor%3D%23FFFFFF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%22210%22%20width%3D%22260%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#FFFFFF;" vertex="1" parent="CnXcmlKL0RTw0rvfGO5R-31">
+          <mxGeometry x="40" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CnXcmlKL0RTw0rvfGO5R-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CnXcmlKL0RTw0rvfGO5R-30" target="CnXcmlKL0RTw0rvfGO5R-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CnXcmlKL0RTw0rvfGO5R-38" value="Релиз приложения на основе Eftech.Factory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="360" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
