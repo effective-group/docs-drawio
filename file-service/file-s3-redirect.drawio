@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 YaBrowser/24.7.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Страница — 1" id="M21PSDiwpuwVqYdvfEaM">
+    <mxGraphModel dx="866" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-1" value="nginx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c7Iwr5GsPZyLnOLx6-zT-1">
+          <mxGeometry x="45" y="60" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-9" value="api-proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c7Iwr5GsPZyLnOLx6-zT-9">
+          <mxGeometry x="45" y="80" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c7Iwr5GsPZyLnOLx6-zT-9">
+          <mxGeometry x="49" y="105" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-49" value="&lt;span style=&quot;font-size: 12px; text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;check abac/rbac access&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="c7Iwr5GsPZyLnOLx6-zT-48" parent="c7Iwr5GsPZyLnOLx6-zT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="85" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-10" value="file-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c7Iwr5GsPZyLnOLx6-zT-10">
+          <mxGeometry x="45" y="160" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-11" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c7Iwr5GsPZyLnOLx6-zT-11">
+          <mxGeometry x="45" y="160" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c7Iwr5GsPZyLnOLx6-zT-11">
+          <mxGeometry x="45" y="220" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-20" value="GET /file/get/:id" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="c7Iwr5GsPZyLnOLx6-zT-19" parent="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
+            <mxPoint x="210" y="165" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-34" value="Получить signedUrl" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="c7Iwr5GsPZyLnOLx6-zT-33" parent="1" source="c7Iwr5GsPZyLnOLx6-zT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-35" value="signedUrl" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="c7Iwr5GsPZyLnOLx6-zT-33" parent="1" target="c7Iwr5GsPZyLnOLx6-zT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-30" value="HEADERS:&lt;div&gt;X-Accel-Redirect: /s3-get/%preparedSignedUrl%&lt;br&gt;Content-Disposition: ...&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="c7Iwr5GsPZyLnOLx6-zT-28" parent="1" target="c7Iwr5GsPZyLnOLx6-zT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="c7Iwr5GsPZyLnOLx6-zT-19" parent="1" target="c7Iwr5GsPZyLnOLx6-zT-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-36" value="proxy response with headers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c7Iwr5GsPZyLnOLx6-zT-21">
+          <mxGeometry x="0.301" y="-2" relative="1" as="geometry">
+            <mxPoint x="32" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-38" value="GET signedUrl" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="c7Iwr5GsPZyLnOLx6-zT-37" parent="1" source="c7Iwr5GsPZyLnOLx6-zT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-39" value="return file content" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="c7Iwr5GsPZyLnOLx6-zT-37" parent="1" target="c7Iwr5GsPZyLnOLx6-zT-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-41" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="20" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-16" value="GET /api/file/get/:id" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="c7Iwr5GsPZyLnOLx6-zT-15" parent="1" source="c7Iwr5GsPZyLnOLx6-zT-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-17" value="&lt;div&gt;Body: file-content from s3&lt;/div&gt;HEADERS:&lt;div&gt;Content-Disposition: ...&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="c7Iwr5GsPZyLnOLx6-zT-15" parent="1" target="c7Iwr5GsPZyLnOLx6-zT-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-42" value="preparedSignedUrl=signedUrlprotocol/signedUrlDomain/signedUrlPathWithQuery&lt;div&gt;- для возможности разобрать в конфиге location в nginx&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="485" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.274;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="c7Iwr5GsPZyLnOLx6-zT-42" target="c7Iwr5GsPZyLnOLx6-zT-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="510" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-44" value="В nginx добавляем отдельный location /s3-get, который internal - недоступен извне.&lt;div&gt;file-service возвращает X-Accel-Redirect c указанием данного location.&lt;/div&gt;&lt;div&gt;В location идем по signedUrl в s3.&lt;/div&gt;&lt;div&gt;Content-Disposition при этом берем от file-service(для правильного имени файла)&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="485" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="c7Iwr5GsPZyLnOLx6-zT-44" target="c7Iwr5GsPZyLnOLx6-zT-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="460" as="sourcePoint" />
+            <mxPoint x="330" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7Iwr5GsPZyLnOLx6-zT-29" value="GET /get/:id" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.995" y="240" as="sourcePoint" />
+            <mxPoint x="689.1200000000002" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
